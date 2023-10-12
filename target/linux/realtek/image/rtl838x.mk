@@ -107,7 +107,7 @@ TARGET_DEVICES += panasonic_m8eg-pn28080k
 
 define Device/zyxel_gs1900
   SOC := rtl8380
-  IMAGE_SIZE := 6976k
+  IMAGE_SIZE := 13952k
   DEVICE_VENDOR := ZyXEL
   UIMAGE_MAGIC := 0x83800000
   KERNEL_INITRAMFS := kernel-bin | append-dtb | gzip | zyxel-vers | \
