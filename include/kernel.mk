@@ -48,6 +48,7 @@ else
   LINUX_UAPI_DIR=uapi/
   LINUX_VERMAGIC:=$(strip $(shell cat $(LINUX_DIR)/.vermagic 2>/dev/null))
   LINUX_VERMAGIC:=$(if $(LINUX_VERMAGIC),$(LINUX_VERMAGIC),unknown)
+  LINUX_VERMAGIC:=dc97409ccc23bcf48096a39de36d3d30
 
   LINUX_UNAME_VERSION:=$(KERNEL_BASE)
   ifneq ($(findstring -rc,$(LINUX_VERSION)),)
