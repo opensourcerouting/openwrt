@@ -61,7 +61,7 @@ define Device/zyxel_gs1900
   DEVICE_COMPAT_MESSAGE := Dual firmware paritition merged due to size constraints. \
 	Upgrade requires a new factory install. Regular sysupgrade is not possible.
   DEVICE_VENDOR := Zyxel
-  IMAGE_SIZE := 13952k
+  IMAGE_SIZE := 63104k
   UIMAGE_MAGIC := 0x83800000
   KERNEL_INITRAMFS := \
 	kernel-bin | \
